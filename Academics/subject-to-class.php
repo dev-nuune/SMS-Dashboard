@@ -91,7 +91,7 @@
                                 <div class="row">
                                     <div class="form-group col-md-12">
                                         <label for="">Subject</label>
-                                        <select name="" id="" class="form-control">
+                                        <select multiple name="" id="" class="form-control">
                                           <option value="">Select subject</option>
                                           <option value="Math">Math</option>
                                           <option value="English">English</option>
