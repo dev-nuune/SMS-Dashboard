@@ -30,7 +30,7 @@
                   <a href="#" class="menu-link"><span class="menu-icon oi oi-person"></span> <span class="menu-text">Student</span></a> <!-- child menu -->
                   <ul class="menu">
                     <li class="menu-item">
-                      <a href="add.php" class="menu-link">Add / Manage student</a>
+                      <a href="<?php echo BASE_URL ?>student/" class="menu-link">Add / Manage student</a>
                     </li>
                     <li class="menu-item">
                       <a href="attendance.php" class="menu-link">Attendance</a>
@@ -43,22 +43,22 @@
                   <a href="#" class="menu-link"><span class="menu-icon oi oi-browser"></span> <span class="menu-text">Academics</span></a> <!-- child menu -->
                   <ul class="menu">
                     <li class="menu-item">
-                      <a href="../Academics/class.php" class="menu-link">Class</a>
+                      <a href="<?php echo BASE_URL ?>Academics/class.php" class="menu-link">Class</a>
                     </li>
                     <li class="menu-item">
-                      <a href="../Academics/level.php" class="menu-link">Levels</a>
+                      <a href="<?php echo BASE_URL ?>Academics/level.php" class="menu-link">Levels</a>
                     </li>
                     <li class="menu-item">
-                      <a href="../Academics/subject.php" class="menu-link">Subject</a>
+                      <a href="<?php echo BASE_URL ?>Academics/subject.php" class="menu-link">Subject</a>
                     </li>
                     <li class="menu-item">
-                      <a href="../Academics/subject-to-class.php" class="menu-link">Subject to Class</a>
+                      <a href="<?php echo BASE_URL ?>Academics/subject-to-class.php" class="menu-link">Subject to Class</a>
                     </li>
                     <li class="menu-item">
-                      <a href="../Academics/session.php" class="menu-link">Session</a>
+                      <a href="<?php echo BASE_URL ?>Academics/session.php" class="menu-link">Session</a>
                     </li>
                     <li class="menu-item">
-                      <a href="../Academics/shift.php" class="menu-link">Shift</a>
+                      <a href="<?php echo BASE_URL ?>Academics/shift.php" class="menu-link">Shift</a>
                     </li>
                  
                   </ul><!-- /child menu -->
