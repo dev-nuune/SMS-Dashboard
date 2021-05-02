@@ -64,16 +64,16 @@
                                                     <td>1</td>
                                                     <td>Yakub Ahmed Yakub</td>
                                                     <td> 
-                                                        Present <input type="radio" name="attendance" id="" >
-                                                        Absent <input type="radio" name="attendance" id="" >
+                                                        Present <input type="radio" name="yakub_attendance" id="" >
+                                                        Absent <input type="radio" name="yakub_attendance" id="" >
                                                     </td>
                                                 </tr>
                                                 <tr>
                                                     <td>2</td>
                                                     <td>Abdulkadir Hassan</td>
                                                     <td> 
-                                                        Present <input type="radio" name="attendance" id="" >
-                                                        Absent <input type="radio" name="attendance" id="" >
+                                                        Present <input type="radio" name="abdulkadir_attendance" id="" >
+                                                        Absent <input type="radio" name="abdulkadir_attendance" id="" >
                                                     </td>
                                                 </tr>
                                             </tbody>

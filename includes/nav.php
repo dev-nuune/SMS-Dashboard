@@ -6,7 +6,7 @@
             <!-- toggle aside menu -->
             <button class="hamburger hamburger-squeeze mr-2" type="button" data-toggle="aside-menu" aria-label="toggle aside menu"><span class="hamburger-box"><span class="hamburger-inner"></span></span></button> <!-- /toggle aside menu -->
             <a href="<?php echo BASE_URL?>">
-                <img src="<?php echo BASE_URL?>assets/images/logo/logo-white.png" alt="" height='40'>
+                <img src="<?php echo BASE_URL?><?php echo BASE_URL?>assets/images/logo/logo-white.png" alt="" height='40'>
             </a>
           </div><!-- /.top-bar-brand -->
           <!-- .top-bar-list -->
@@ -54,7 +54,7 @@
                         <div class="list-group-item py-2">
                           <a href="#" class="stretched-link"><span class="sr-only">Go to search result</span></a>
                           <div class="user-avatar user-avatar-sm bg-muted">
-                            <img src="assets/images/avatars/bootstrap.svg" alt="">
+                            <img src="<?php echo BASE_URL?>assets/images/avatars/bootstrap.svg" alt="">
                           </div>
                           <div class="ml-2">
                             <div class="mb-n1"> Bootstrap </div><small class="text-muted">Just now</small>
@@ -64,7 +64,7 @@
                         <div class="list-group-item py-2">
                           <a href="#" class="stretched-link"><span class="sr-only">Go to search result</span></a>
                           <div class="user-avatar user-avatar-sm bg-muted">
-                            <img src="assets/images/avatars/slack.svg" alt="">
+                            <img src="<?php echo BASE_URL?>assets/images/avatars/slack.svg" alt="">
                           </div>
                           <div class="ml-2">
                             <div class="mb-n1"> Slack </div><small class="text-muted">Updated 25 minutes ago</small>
@@ -104,7 +104,7 @@
                       <!-- .dropdown-item -->
                       <a href="#" class="dropdown-item unread">
                         <div class="user-avatar">
-                          <img src="assets/images/avatars/uifaces15.jpg" alt="">
+                          <img src="<?php echo BASE_URL?>assets/images/avatars/uifaces15.jpg" alt="">
                         </div>
                         <div class="dropdown-item-body">
                           <p class="text"> Jeffrey Wells created a schedule </p><span class="date">Just now</span>
@@ -113,7 +113,7 @@
                       <!-- .dropdown-item -->
                       <a href="#" class="dropdown-item unread">
                         <div class="user-avatar">
-                          <img src="assets/images/avatars/uifaces16.jpg" alt="">
+                          <img src="<?php echo BASE_URL?>assets/images/avatars/uifaces16.jpg" alt="">
                         </div>
                         <div class="dropdown-item-body">
                           <p class="text"> Anna Vargas logged a chat </p><span class="date">3 hours ago</span>
@@ -122,7 +122,7 @@
                       <!-- .dropdown-item -->
                       <a href="#" class="dropdown-item">
                         <div class="user-avatar">
-                          <img src="assets/images/avatars/uifaces17.jpg" alt="">
+                          <img src="<?php echo BASE_URL?>assets/images/avatars/uifaces17.jpg" alt="">
                         </div>
                         <div class="dropdown-item-body">
                           <p class="text"> Sara Carr invited to Stilearn Admin </p><span class="date">5 hours ago</span>
@@ -131,7 +131,7 @@
                       <!-- .dropdown-item -->
                       <a href="#" class="dropdown-item">
                         <div class="user-avatar">
-                          <img src="assets/images/avatars/uifaces18.jpg" alt="">
+                          <img src="<?php echo BASE_URL?>assets/images/avatars/uifaces18.jpg" alt="">
                         </div>
                         <div class="dropdown-item-body">
                           <p class="text"> Arthur Carroll updated a project </p><span class="date">1 day ago</span>
@@ -140,7 +140,7 @@
                       <!-- .dropdown-item -->
                       <a href="#" class="dropdown-item">
                         <div class="user-avatar">
-                          <img src="assets/images/avatars/uifaces19.jpg" alt="">
+                          <img src="<?php echo BASE_URL?>assets/images/avatars/uifaces19.jpg" alt="">
                         </div>
                         <div class="dropdown-item-body">
                           <p class="text"> Hannah Romero created a task </p><span class="date">1 day ago</span>
@@ -149,7 +149,7 @@
                       <!-- .dropdown-item -->
                       <a href="#" class="dropdown-item">
                         <div class="user-avatar">
-                          <img src="assets/images/avatars/uifaces20.jpg" alt="">
+                          <img src="<?php echo BASE_URL?>assets/images/avatars/uifaces20.jpg" alt="">
                         </div>
                         <div class="dropdown-item-body">
                           <p class="text"> Angela Peterson assign a task to you </p><span class="date">2 days ago</span>
@@ -158,7 +158,7 @@
                       <!-- .dropdown-item -->
                       <a href="#" class="dropdown-item">
                         <div class="user-avatar">
-                          <img src="assets/images/avatars/uifaces21.jpg" alt="">
+                          <img src="<?php echo BASE_URL?>assets/images/avatars/uifaces21.jpg" alt="">
                         </div>
                         <div class="dropdown-item-body">
                           <p class="text"> Shirley Mason and 3 others followed you </p><span class="date">2 days ago</span>
@@ -180,7 +180,7 @@
                       <!-- .dropdown-item -->
                       <a href="#" class="dropdown-item unread">
                         <div class="user-avatar">
-                          <img src="assets/images/avatars/team1.jpg" alt="">
+                          <img src="<?php echo BASE_URL?>assets/images/avatars/team1.jpg" alt="">
                         </div>
                         <div class="dropdown-item-body">
                           <p class="subject"> Stilearning </p>
@@ -190,7 +190,7 @@
                       <!-- .dropdown-item -->
                       <a href="#" class="dropdown-item">
                         <div class="user-avatar">
-                          <img src="assets/images/avatars/team3.png" alt="">
+                          <img src="<?php echo BASE_URL?>assets/images/avatars/team3.png" alt="">
                         </div>
                         <div class="dropdown-item-body">
                           <p class="subject"> Openlane </p>
@@ -216,7 +216,7 @@
                       <!-- .dropdown-item -->
                       <a href="#" class="dropdown-item">
                         <div class="user-avatar">
-                          <img src="assets/images/avatars/team2.png" alt="">
+                          <img src="<?php echo BASE_URL?>assets/images/avatars/team2.png" alt="">
                         </div>
                         <div class="dropdown-item-body">
                           <p class="subject"> Creative Division </p>
