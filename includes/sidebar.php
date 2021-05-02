@@ -30,7 +30,7 @@
                   <a href="#" class="menu-link"><span class="menu-icon oi oi-person"></span> <span class="menu-text">Student</span></a> <!-- child menu -->
                   <ul class="menu">
                     <li class="menu-item">
-                      <a href="index.php" class="menu-link">Add / Manage student</a>
+                      <a href="add.php" class="menu-link">Add / Manage student</a>
                     </li>
                     <li class="menu-item">
                       <a href="attendance.php" class="menu-link">Attendance</a>
