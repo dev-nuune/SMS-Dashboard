@@ -64,7 +64,7 @@
                   </ul><!-- /child menu -->
                 </li><!-- /.menu-item -->
 
-                <div class="divider"></div>
+                <li class="menu-header">Accounting </li><!-- /.menu-header -->
                 <!-- .menu-item -->
                 <li class="menu-item has-child">
                   <a href="#" class="menu-link"><span class="menu-icon oi oi-person"></span> <span class="menu-text">Finance</span></a> <!-- child menu -->
