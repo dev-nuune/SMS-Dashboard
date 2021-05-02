@@ -1,9 +1,9 @@
 <?php include('../path.php'); ?>
-<?php include_once(ROOT_PATH '/includes/header.php'); ?>
+<?php $title = "Level"; include_once(ROOT_PATH. '/includes/header.php'); ?>
       <!-- .app-header -->
-        <?php include_once(ROOT_PATH '/includes/nav.php'); ?>
+        <?php include_once(ROOT_PATH. '/includes/nav.php'); ?>
       <!-- .app-aside -->
-        <?php include_once(ROOT_PATH '/includes/sidebar.php');?>
+        <?php include_once(ROOT_PATH. '/includes/sidebar.php');?>
       <!-- .app-main -->
       <main class="app-main">
         <!-- .wrapper -->

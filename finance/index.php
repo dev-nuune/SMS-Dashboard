@@ -1,5 +1,5 @@
 <?php include('../path.php'); ?>
-<?php $title = "Student"; include_once(ROOT_PATH . '../includes/header.php'); ?>
+<?php $title = "Finance"; include_once(ROOT_PATH . '../includes/header.php'); ?>
       <!-- .app-header -->
         <?php include_once(ROOT_PATH . '../includes/nav.php'); ?>
       <!-- .app-aside -->

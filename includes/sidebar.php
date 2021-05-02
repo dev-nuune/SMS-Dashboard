@@ -22,7 +22,7 @@
               <ul class="menu">
                 <!-- .menu-item -->
                 <li class="menu-item has-active">
-                  <a href="../Dashboard/" class="menu-link"><span class="menu-icon fas fa-home"></span> <span class="menu-text">Dashboard</span></a>
+                  <a href="<?php echo BASE_URL?>" class="menu-link"><span class="menu-icon fas fa-home"></span> <span class="menu-text">Dashboard</span></a>
                 </li><!-- /.menu-item -->
   
                 <!-- .menu-item -->
@@ -33,7 +33,7 @@
                       <a href="<?php echo BASE_URL ?>student/" class="menu-link">Add / Manage student</a>
                     </li>
                     <li class="menu-item">
-                      <a href="attendance.php" class="menu-link">Attendance</a>
+                      <a href="<?php echo BASE_URL ?>student/attendance.php" class="menu-link">Attendance</a>
                     </li>
    
                   </ul><!-- /child menu -->
@@ -63,6 +63,23 @@
                  
                   </ul><!-- /child menu -->
                 </li><!-- /.menu-item -->
+
+                <div class="divider"></div>
+                <!-- .menu-item -->
+                <li class="menu-item has-child">
+                  <a href="#" class="menu-link"><span class="menu-icon oi oi-person"></span> <span class="menu-text">Finance</span></a> <!-- child menu -->
+                  <ul class="menu">
+                    <li class="menu-item">
+                      <a href="<?php echo BASE_URL ?>finance/" class="menu-link">Add / Manage Finance</a>
+                    </li>
+                    <li class="menu-item">
+                      <a href="<?php echo BASE_URL ?>student/attendance.php" class="menu-link">Attendance</a>
+                    </li>
+   
+                  </ul><!-- /child menu -->
+                </li><!-- /.menu-item -->
+
+
                 <!-- .menu-item -->
                 <li class="menu-item">
                   <a href="landing-page.html" class="menu-link"><span class="menu-icon fas fa-rocket"></span> <span class="menu-text">Landing Page</span></a>
