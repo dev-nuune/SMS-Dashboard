@@ -22,7 +22,7 @@
                             <div class="card-header">
                                 <div class="row">
                                     <div class="col-md-6">
-                                        <h5>Student Admission</h5>
+                                        <h5>Student Payments Information</h5>
                                     </div>
                                     <div class="col-md-6 ">
                                         <button class="btn btn-info float-right" id='btnAddNewStud'>Add New</button>
