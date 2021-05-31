@@ -26,7 +26,7 @@ if( $action == "insert" ) {
     $level_name = mysqli_real_escape_string($con, $level_name);
     $description = mysqli_real_escape_string($con, $description);
 
-    $sql = "UPDATE levels SET name = '$level_name', description = '$description' WHERE id = 
+    $sql = "UPDATE levels SET name = '$level_name', description = '$description' WHERE id = " . $level_id;
     $resultSet = mysqli_query($con, $sql);
     if( $resultSet ){
         echo '<div class="alert alert-success"> <a href="" class="close" data-dismiss="alert" aria-label="close">&times;</a> Operation Done Successfully. </div>';
