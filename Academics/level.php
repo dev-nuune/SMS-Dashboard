@@ -18,26 +18,27 @@
               <div class="page-section">
                 <div class="row">
                     <div class="col-md-4">
+                    <form id="save_level_form">
                         <div class="card">
                             <div class="card-header bg-info text-light"> Add new level </div>
                             <div class="card-body">
+                              <span id="msg"></span>
                                 <div class="row">
                                     <div class="form-group col-md-12">
                                         <label for="">level name</label>
-                                        <input type="text" name="" id="" class="form-control" placeholder='Class One'>
+                                        <input type="text" name="level_name" id="level_name" class="form-control" placeholder='Class One'>
                                     </div>
                                     <div class="form-group col-md-12">
                                         <label for="">Description</label>
-                                        <input type="text" name="" id="" class="form-control" placeholder='....'>
+                                        <input type="text" name="description" id="description" class="form-control" placeholder='....'>
                                     </div>                                   
-
                                     <div class="form-group col-md-12">
-                                        <button class="btn btn-info float-right" id=''> Save level</button>
+                                        <button type="submit" name="save_level" class="btn btn-info float-right" id='save_level'> Save level</button>
                                     </div>
-
                                 </div>
                             </div>
                         </div>
+                    </form>
                     </div>
                     <div class="col-md-8">
                     <div class="card">
@@ -45,15 +46,14 @@
                             <h2>levels</h2>
                           <table id="example1" class="table table-bordered table-striped ">
                               <thead>
-                                  
-                              <tr>
-                                  <th>#</th>
-                                  <th>Level name</th>
-                                  <th>Description</th>                                
-                                  <th>Actions</th>
-                              </tr>
+                                <tr>
+                                    <th>#</th>
+                                    <th>Level name</th>
+                                    <th>Description</th>                                
+                                    <th>Actions</th>
+                                </tr>
                               </thead>
-                              <tbody id=''>
+                              <tbody id='load_level_table'>
                                   <tr>
                                     <td>1</td>
                                     <td>Hoose</td>
@@ -65,7 +65,6 @@
                                       </div>
                                     </td>
                                   </tr>
-                                  
                               </tbody>
                 
                           </table>
@@ -85,3 +84,43 @@
       </main><!-- /.app-main -->
     </div><!-- /.app -->
     <?php include(ROOT_PATH . 'includes/layouts/footer-js.php'); ?>
+    <script>
+      $(document).ready(function(){
+
+        var DOMAIN = "http://localhost/sms-dashboard/";
+
+
+        // Preventform Submittion
+        $('#save_level_form').submit(function(e){
+          event.preventDefault();
+          var level_name = $('#level_name').val();
+          var description = $('#description').val();
+
+          if( level_name == "" || description == "" ){
+            $('#msg').fadeIn().html('<div class="alert alert-warning"> <a href="" class="close" data-dismiss="alert" aria-label="close">&times;</a> All fields are required. please fill it. </div>');
+            // alert('All fields are required. please fill it.');
+            setTimeout(() => {
+              $('#msg').fadeOut();
+            }, 4000);
+          }else{
+
+            $.ajax({
+              url: DOMAIN + "/includes/insert.php?action=insert",
+              method: "POST",
+              data: $(this).serialize(),
+              success: function(data){
+                $('#msg').fadeIn().html(data);
+                // console.log(data);
+                setTimeout(() => {
+                  $('#msg').fadeOut();
+                }, 4000);
+              }
+            });
+
+            // alert(level_name);
+            // alert(description);
+          }
+
+        })
+      })
+    </script>
