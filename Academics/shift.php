@@ -1,9 +1,9 @@
 <?php include('../path.php'); ?>
-<?php $title = "Shift"; include_once(ROOT_PATH. '/includes/header.php'); ?>
+<?php $title = "Shift"; include_once(ROOT_PATH. 'includes/layouts/header.php'); ?>
       <!-- .app-header -->
-        <?php include_once(ROOT_PATH. '/includes/nav.php'); ?>
+        <?php include_once(ROOT_PATH. 'includes/layouts/nav.php'); ?>
       <!-- .app-aside -->
-        <?php include_once(ROOT_PATH. '/includes/sidebar.php');?>
+        <?php include_once(ROOT_PATH. 'includes/layouts/sidebar.php');?>
       <!-- .app-main -->
       <main class="app-main">
         <!-- .wrapper -->
@@ -62,8 +62,8 @@
                                     <td>Morning shift</td>
                                     <td>
                                       <div class='btn-group btn-group-sm' role='group' aria-label='Basic example'>
-                                        <button type='button' class='btn btn-info' data-toggle='modal' data-target='#VeiwOrder'  data-toggle='tooltip' data-placement='top' title='View student information' id='btnviewOrder' data-id='$id'><i class='fa fa-list'></i></button>
-                                        <button type='button' class='btn btn-danger' id='deleteOrder' data-id='$id'  data-toggle='tooltip' data-placement='top' title='Delete'> <i class='fa fa-trash'></i> </button>
+                                        <button type='button' class='btn btn-info' data-toggle='modal' data-target='#VeiwOrder'  data-toggle='tooltip' data-placement='top' title='View student information' id='btnviewOrder' data-id='$id'><i class='fa fa-list'><i></button>
+                                        <button type='button' class='btn btn-danger' id='deleteOrder' data-id='$id'  data-toggle='tooltip' data-placement='top' title='Delete'> <i class='fa fa-trash'><i> </button>
                                       </div>
                                     </td>
                                   </tr>
@@ -81,13 +81,13 @@
           </div><!-- /.page -->
         </div><!-- .app-footer -->
         <footer class="app-footer">
-          <?php include('../includes/footer.php'); ?>
+          <?php include(ROOT_PATH . 'includes/layouts/footer.php'); ?>
         </footer><!-- /.app-footer -->
         <!-- /.wrapper -->
       </main><!-- /.app-main -->
     </div><!-- /.app -->
 
- <?php include('../includes/footer-js.php'); ?>
+ <?php include(ROOT_PATH . 'includes/layouts/footer-js.php'); ?>
  
 <script>
     $(document).ready(()=>{

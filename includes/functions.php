@@ -16,25 +16,25 @@ function getAllRecord($sql){
 	return "No Data.";
 }
 
-function viewTable($sql){
-		global $con;
-		$result = mysqli_query($con, $sql);
-		$colums = $result->fetch_fields();
-		
-		echo"<table><thead><tr>";
-		foreach ($colums as $key => $value) {
-				echo "<th>".$value->name."</th>";
-			}
+// function viewTable($sql){
+// 	global $con;
+// 	$result = mysqli_query($con, $sql);
+// 	$colums = $result->fetch_fields();
+	
+// 	echo"<table><thead><tr>";
+// 	foreach ($colums as $key => $value) {
+// 			echo "<th>".$value->name."</th>";
+// 		}
 
-		echo"</tr></thead><tbody>";
-		while($row=$this->result->fetch_array(MYSQLI_ASSOC)){
-			echo"<tr>";
-			foreach ($row as $key => $value) {
-				echo"<td>$value</td>";
-			}
-			echo"</tr>";
-		}
-		echo"</tbody></table>";
-	}
+// 	echo"</tr></thead><tbody>";
+// 	while($row=$this->result->fetch_array(MYSQLI_ASSOC)){
+// 		echo"<tr>";
+// 		foreach ($row as $key => $value) {
+// 			echo"<td>$value</td>";
+// 		}
+// 		echo"</tr>";
+// 	}
+// 	echo"</tbody></table>";
+// }
 
 ?>

@@ -72,9 +72,9 @@
                     <li class="menu-item">
                       <a href="<?php echo BASE_URL ?>finance/" class="menu-link">Add / Manage Finance</a>
                     </li>
-                    <li class="menu-item">
+                    <!-- <li class="menu-item">
                       <a href="<?php echo BASE_URL ?>student/attendance.php" class="menu-link">Attendance</a>
-                    </li>
+                    </li> -->
    
                   </ul><!-- /child menu -->
                 </li><!-- /.menu-item -->

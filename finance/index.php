@@ -1,9 +1,9 @@
 <?php include('../path.php'); ?>
-<?php $title = "Finance"; include_once(ROOT_PATH . '../includes/header.php'); ?>
+<?php $title = "Finance"; include_once(ROOT_PATH . 'includes/layouts/header.php'); ?>
       <!-- .app-header -->
-        <?php include_once(ROOT_PATH . '../includes/nav.php'); ?>
+        <?php include_once(ROOT_PATH . 'includes/layouts/nav.php'); ?>
       <!-- .app-aside -->
-        <?php include_once(ROOT_PATH . '../includes/sidebar.php');?>
+        <?php include_once(ROOT_PATH . 'includes/layouts/sidebar.php');?>
       <!-- .app-main -->
       <main class="app-main">
         <!-- .wrapper -->
@@ -96,13 +96,13 @@
           </div><!-- /.page -->
         </div><!-- .app-footer -->
         <footer class="app-footer">
-          <?php include('../includes/footer.php'); ?>
+          <?php include(ROOT_PATH .'includes/layouts/footer.php'); ?>
         </footer><!-- /.app-footer -->
         <!-- /.wrapper -->
       </main><!-- /.app-main -->
     </div><!-- /.app -->
 
-<?php include('../includes/footer-js.php'); ?>
+<?php include(ROOT_PATH .'includes/layouts/footer-js.php'); ?>
 
 <script>
 
